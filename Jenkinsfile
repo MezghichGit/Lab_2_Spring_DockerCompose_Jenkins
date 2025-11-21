@@ -1,6 +1,6 @@
 pipeline {
      environment {
-            DOCKERHUB_CREDENTIALS = credentials('dockerhub_aminesip')
+            DOCKERHUB_CREDENTIALS = credentials('aminesip')
         }
     agent any
     stages {
